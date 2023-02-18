@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="Weatherapp.css">
+
+
+
+    <!--The CSS styling-->
+    <style>
+      .material-symbols-sharp {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+        
+      }
+      </style>
+   
+</head>
+<body>
+
+   <div class="container">
+
+    <div class="bg">
+    <div class="top">
+      <h2>WeatherApp</h2>
+
+      <div class="search">
+        <div class="icon">
+          <span class="material-symbols-sharp" style="color: white;">
+            search
+            </span>
+        </div>
+      <div class="input">
+        <input type="text" class="inputext" name="" id="intext" placeholder="Enter city"/>
+      </div>
+      <span class="clear">
+        <span class="material-symbols-sharp close" style="color: white;">
+          close
+          </span>
+      </span>
+  </div>
+
+      </div>
+
+      <div class="body">
+        <div class="left"> 
+          <div class="location">
+            <div class="city">Lagos,</div><span class="country" id="country">Nigeria</span>
+          </div>
+          <p class="descr">Rainny</p>
+        </div>
+
+        <div class="right">
+
+          <div class="first">
+            <div class="temp">
+              <span class="material-symbols-sharp">
+                device_thermostat
+                </span>
+              Temperature
+            </div>
+           <div class="text" id="temp">32°C</div> 
+          </div>
+
+          <div class="second">
+            <div class="humid">
+              <span class="material-symbols-sharp">
+                humidity_mid
+                </span>
+              Humidity
+            </div>
+           <div class="text" id="humid">45.6%</div> 
+          </div>
+
+          <div class="third">
+            <div class="wind">
+              <span class="material-symbols-sharp">
+                air
+                </span>
+             
+              Wind Speed
+            </div>
+           <div class="text" id="windsp">11.4Km/hr</div> 
+          </div>
+        </div>
+
+      
+      </div>
+        
+      <div class="bottom">
+        <div class="content">
+        
+        </div>
+      </div>
+    </div>
+      </div>
+      
+    
+   
+      <script src="Weathapp.js" defer></script>
+</body>
+</html>
